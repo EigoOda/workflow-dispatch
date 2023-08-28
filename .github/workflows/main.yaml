@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: main
-        run: echo main
+        run: echo "main"
