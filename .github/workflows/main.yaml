@@ -1,0 +1,12 @@
+name: main workflow
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopend]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: main
+        run: echo main
